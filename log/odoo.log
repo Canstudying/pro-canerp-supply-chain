@@ -1,0 +1,783 @@
+2024-05-15 11:49:49,327 15692 WARNING ? py.warnings: E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\tools\config.py:565: DeprecationWarning: The longpolling-port is a deprecated alias to the gevent-port option, please use the latter.
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\cli\server.py", line 127, in main
+    odoo.tools.config.parse_config(args)
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\tools\config.py", line 378, in parse_config
+    self._warn_deprecated_options()
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\tools\config.py", line 565, in _warn_deprecated_options
+    warnings.warn(
+ 
+2024-05-15 11:49:49,329 15692 INFO ? odoo: Odoo version 16.0-20230920 
+2024-05-15 11:49:49,329 15692 INFO ? odoo: Using configuration file at E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo_dev2.conf 
+2024-05-15 11:49:49,330 15692 INFO ? odoo: addons paths: ['E:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\odoo\\addons', 'c:\\users\\zhqc\\appdata\\local\\openerp s.a\\odoo\\addons\\16.0', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\odoo\\addons', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\account', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\sale', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\warehouse', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\transport', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\manufacture', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\hr', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\tool', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\other', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\tmp_pre', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\tmp_test', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\tmp_tmp', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\account', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\sale', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\warehouse', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\transport', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\manufacture', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\hr', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\tool', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\other', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\tmp_pre', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\tmp_test', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\tmp_tmp', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons_dev\\dev_a', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons_dev\\dev_b', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons_dev\\dev_c', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons_dev\\dev_d', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons_dev\\dev_e', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons_dev\\dev_f'] 
+2024-05-15 11:49:49,330 15692 INFO ? odoo: database: canerp_db@localhost:3308 
+2024-05-15 11:49:49,595 15692 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at D:\Program Files (x86)\wkhtmltopdf\bin\wkhtmltopdf.exe 
+2024-05-15 11:49:49,928 15692 WARNING ? odoo.service.server: 'watchdog' module not installed. Code autoreload feature is disabled 
+2024-05-15 11:49:49,938 15692 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-UG66N7B:8119 
+2024-05-15 11:50:25,245 15692 INFO dev_v1_canerp_dev_12_dev odoo.modules.loading: loading 1 modules... 
+2024-05-15 11:50:25,259 15692 INFO dev_v1_canerp_dev_12_dev odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-05-15 11:50:25,403 15692 WARNING dev_v1_canerp_dev_12_dev odoo.modules.module: Missing `license` key in manifest for 'book_store', defaulting to LGPL-3 
+2024-05-15 11:50:25,423 15692 INFO dev_v1_canerp_dev_12_dev odoo.modules.loading: loading 25 modules... 
+2024-05-15 11:50:25,494 15692 WARNING dev_v1_canerp_dev_12_dev odoo.models: The model book_store.book has no _description 
+2024-05-15 11:50:25,496 15692 WARNING dev_v1_canerp_dev_12_dev odoo.models: The model book_store.book has no _description 
+2024-05-15 11:50:25,684 15692 WARNING dev_v1_canerp_dev_12_dev odoo.models: The model book_store.book has no _description 
+2024-05-15 11:50:26,620 15692 WARNING dev_v1_canerp_dev_12_dev odoo.models: The model book_store.book has no _description 
+2024-05-15 11:50:27,504 15692 WARNING dev_v1_canerp_dev_12_dev odoo.models: The model book_store.book has no _description 
+2024-05-15 11:50:27,507 15692 WARNING dev_v1_canerp_dev_12_dev odoo.models: The model book_store.book has no _description 
+2024-05-15 11:50:28,536 15692 INFO dev_v1_canerp_dev_12_dev odoo.modules.loading: 25 modules loaded in 3.11s, 0 queries (+0 extra) 
+2024-05-15 11:50:28,642 15692 INFO dev_v1_canerp_dev_12_dev odoo.modules.loading: Modules loaded. 
+2024-05-15 11:50:28,653 15692 INFO dev_v1_canerp_dev_12_dev odoo.modules.registry: Registry loaded in 3.529s 
+2024-05-15 11:50:28,656 15692 INFO dev_v1_canerp_dev_12_dev odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-05-15 11:50:28,889 15692 INFO dev_v1_canerp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 11:50:28] "GET / HTTP/1.1" 303 - 29 0.114 3.658
+2024-05-15 11:50:50,270 15692 INFO dev_v1_canerp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-05-15 11:50:50,288 15692 INFO dev_v1_canerp_dev_12_dev odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-05-15 11:50:50,296 15692 INFO dev_v1_canerp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-05-15 11:50:50,303 15692 INFO dev_v1_canerp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-05-15 11:50:50,313 15692 INFO dev_v1_canerp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-05-15 11:50:50,323 15692 INFO dev_v1_canerp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-05-15 11:50:50,331 15692 INFO dev_v1_canerp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-05-15 11:50:50,338 15692 INFO dev_v1_canerp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2024-05-15 11:50:50,346 15692 INFO dev_v1_canerp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-05-15 11:50:50,351 15692 INFO dev_v1_canerp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-05-15 11:51:00,311 15692 WARNING dev_v1_canerp_dev_12_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc="title or 'CAN ERP'" in template 180. Replace by @t-out 
+2024-05-15 11:51:00,313 15692 WARNING dev_v1_canerp_dev_12_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='request.csrf_token(None)' in template 180. Replace by @t-out 
+2024-05-15 11:51:00,314 15692 WARNING dev_v1_canerp_dev_12_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='debug' in template 180. Replace by @t-out 
+2024-05-15 11:51:00,634 15692 INFO dev_v1_canerp_dev_12_dev odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2024-05-15 11:51:00,637 15692 INFO dev_v1_canerp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 11:51:00] "GET /web HTTP/1.1" 200 - 198 0.307 31.437
+2024-05-15 11:51:05,091 15692 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'dev_z_demo', defaulting to LGPL-3 
+2024-05-15 11:51:05,092 15692 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'dev_z_demo', defaulting to LGPL-3 
+2024-05-15 11:51:05,096 15692 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'dev_z_demo', defaulting to LGPL-3 
+2024-05-15 11:51:05,098 15692 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'dev_z_demo', defaulting to LGPL-3 
+2024-05-15 11:51:05,099 15692 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'dev_z_demo', defaulting to LGPL-3 
+2024-05-15 11:51:06,689 15692 INFO dev_v1_canerp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 11:51:06] "GET /web/assets/42-34e7d02/web.assets_common.min.css HTTP/1.1" 200 - 11 0.009 5.639
+2024-05-15 11:51:06,690 15692 INFO dev_v1_canerp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 11:51:06] "GET /web/assets/45-bcfb300/web.assets_backend.min.js HTTP/1.1" 200 - 13 0.013 5.633
+2024-05-15 11:51:06,690 15692 INFO dev_v1_canerp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 11:51:06] "GET /web/assets/44-34e7d02/web.assets_common.min.js HTTP/1.1" 200 - 11 0.016 5.631
+2024-05-15 11:51:06,690 15692 INFO dev_v1_canerp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 11:51:06] "GET /web/assets/43-bcfb300/web.assets_backend.min.css HTTP/1.1" 200 - 10 0.009 5.639
+2024-05-15 11:51:06,741 15692 INFO dev_v1_canerp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 11:51:06] "GET /web/assets/46-15b5be8/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 4 0.013 5.683
+2024-05-15 11:51:07,150 15692 INFO dev_v1_canerp_dev_12_dev odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2024-05-15 11:51:07,152 15692 INFO dev_v1_canerp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 11:51:07] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 18 0.010 0.052
+2024-05-15 11:51:07,488 15692 INFO dev_v1_canerp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 11:51:07] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 16 0.024 0.008
+2024-05-15 11:51:07,556 15692 INFO ? werkzeug: 127.0.0.1 - - [15/May/2024 11:51:07] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 206 - 0 0.000 0.007
+2024-05-15 11:51:07,584 15692 INFO dev_v1_canerp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 11:51:07] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.033
+2024-05-15 11:51:07,584 15692 INFO dev_v1_canerp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 11:51:07] "POST /web/action/load HTTP/1.1" 200 - 8 0.014 0.021
+2024-05-15 11:51:07,597 15692 INFO dev_v1_canerp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 11:51:07] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 19 0.018 0.028
+2024-05-15 11:51:07,602 15692 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-05-15 11:51:07,676 15692 INFO dev_v1_canerp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 11:51:07] "POST /mail/init_messaging HTTP/1.1" 200 - 87 0.096 0.125
+2024-05-15 11:51:08,061 15692 INFO dev_v1_canerp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 11:51:08] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.003 0.009
+2024-05-15 11:51:08,073 15692 INFO dev_v1_canerp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 11:51:08] "POST /mail/inbox/messages HTTP/1.1" 200 - 11 0.015 0.011
+2024-05-15 11:51:08,084 15692 INFO dev_v1_canerp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 11:51:08] "GET /web/image/res.partner/2/avatar_128 HTTP/1.1" 304 - 22 0.015 0.020
+2024-05-15 11:51:16,802 15692 INFO dev_v1_canerp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 11:51:16] "GET /web/session/logout HTTP/1.1" 303 - 1 0.000 0.010
+2024-05-15 11:51:17,127 15692 INFO dev_v1_canerp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 11:51:17] "GET /web HTTP/1.1" 303 - 1 0.001 0.006
+2024-05-15 11:51:17,629 15692 WARNING dev_v1_canerp_dev_12_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='error' in template 185. Replace by @t-out 
+2024-05-15 11:51:17,630 15692 WARNING dev_v1_canerp_dev_12_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='message' in template 185. Replace by @t-out 
+2024-05-15 11:51:17,686 15692 WARNING dev_v1_canerp_dev_12_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc="title or 'CAN ERP'" in template 181. Replace by @t-out 
+2024-05-15 11:51:17,688 15692 WARNING dev_v1_canerp_dev_12_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='request.csrf_token(None)' in template 181. Replace by @t-out 
+2024-05-15 11:51:17,689 15692 WARNING dev_v1_canerp_dev_12_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='debug' in template 181. Replace by @t-out 
+2024-05-15 11:51:51,778 11380 WARNING ? py.warnings: E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\tools\config.py:565: DeprecationWarning: The longpolling-port is a deprecated alias to the gevent-port option, please use the latter.
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\cli\server.py", line 127, in main
+    odoo.tools.config.parse_config(args)
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\tools\config.py", line 378, in parse_config
+    self._warn_deprecated_options()
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\tools\config.py", line 565, in _warn_deprecated_options
+    warnings.warn(
+ 
+2024-05-15 11:51:51,779 11380 INFO ? odoo: Odoo version 16.0-20230920 
+2024-05-15 11:51:51,780 11380 INFO ? odoo: Using configuration file at E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo_dev2.conf 
+2024-05-15 11:51:51,780 11380 INFO ? odoo: addons paths: ['E:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\odoo\\addons', 'c:\\users\\zhqc\\appdata\\local\\openerp s.a\\odoo\\addons\\16.0', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\odoo\\addons', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\account', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\sale', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\warehouse', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\transport', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\manufacture', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\hr', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\tool', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\other', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\tmp_pre', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\tmp_test', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\tmp_tmp', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\account', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\sale', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\warehouse', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\transport', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\manufacture', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\hr', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\tool', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\other', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\tmp_pre', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\tmp_test', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\tmp_tmp', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons_dev\\dev_a', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons_dev\\dev_b', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons_dev\\dev_c', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons_dev\\dev_d', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons_dev\\dev_e', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons_dev\\dev_f'] 
+2024-05-15 11:51:51,780 11380 INFO ? odoo: database: uperp_db@localhost:3308 
+2024-05-15 11:51:52,055 11380 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at D:\Program Files (x86)\wkhtmltopdf\bin\wkhtmltopdf.exe 
+2024-05-15 11:51:52,393 11380 WARNING ? odoo.service.server: 'watchdog' module not installed. Code autoreload feature is disabled 
+2024-05-15 11:51:52,414 11380 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-UG66N7B:8119 
+2024-05-15 11:52:07,159 11380 ERROR ? odoo.sql_db: bad query: CREATE SEQUENCE base_registry_signaling INCREMENT BY 1 START WITH 1
+ERROR: 错误:  关系 "base_registry_signaling" 已经存在
+ 
+2024-05-15 11:52:07,162 11380 ERROR ? odoo.modules.registry: Failed to load registry 
+Traceback (most recent call last):
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\modules\registry.py", line 64, in __new__
+    return cls.registries[db_name]
+  File "<decorator-gen-6>", line 2, in __getitem__
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\tools\func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\tools\lru.py", line 34, in __getitem__
+    a = self.d[obj]
+KeyError: 'dev_v1_canerp_dev_12_dev'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\modules\registry.py", line 87, in new
+    registry.setup_signaling()
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\modules\registry.py", line 740, in setup_signaling
+    cr.execute("CREATE SEQUENCE base_registry_signaling INCREMENT BY 1 START WITH 1")
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\sql_db.py", line 321, in execute
+    res = self._obj.execute(query, params)
+psycopg2.errors.DuplicateTable: 错误:  关系 "base_registry_signaling" 已经存在
+
+2024-05-15 11:52:07,245 11380 INFO dev_v1_canerp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 11:52:07] "GET /web/login HTTP/1.1" 303 - 4 0.008 0.163
+2024-05-15 11:52:07,874 11380 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'book_store', defaulting to LGPL-3 
+2024-05-15 11:52:07,882 11380 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'dev_z_demo', defaulting to LGPL-3 
+2024-05-15 11:52:08,404 11380 INFO ? werkzeug: 127.0.0.1 - - [15/May/2024 11:52:08] "GET /web/database/selector HTTP/1.1" 200 - 2 0.004 1.150
+2024-05-15 11:52:51,570 11380 INFO None odoo.service.db: Create database `dev_v1_uperp_dev_12_dev`. 
+2024-05-15 11:52:53,687 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading 1 modules... 
+2024-05-15 11:52:53,687 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Loading module base (1/1) 
+2024-05-15 11:52:53,708 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.registry: module base: creating or updating database tables 
+2024-05-15 11:52:54,188 11380 INFO dev_v1_uperp_dev_12_dev odoo.models: Prepare computation of ir.module.module.menus_by_module 
+2024-05-15 11:52:54,188 11380 INFO dev_v1_uperp_dev_12_dev odoo.models: Prepare computation of ir.module.module.reports_by_module 
+2024-05-15 11:52:54,188 11380 INFO dev_v1_uperp_dev_12_dev odoo.models: Prepare computation of ir.module.module.views_by_module 
+2024-05-15 11:52:54,367 11380 INFO dev_v1_uperp_dev_12_dev odoo.models: Prepare computation of res.partner.user_id 
+2024-05-15 11:52:54,367 11380 INFO dev_v1_uperp_dev_12_dev odoo.models: Prepare computation of res.partner.commercial_partner_id 
+2024-05-15 11:52:54,367 11380 INFO dev_v1_uperp_dev_12_dev odoo.models: Prepare computation of res.partner.display_name 
+2024-05-15 11:52:54,367 11380 INFO dev_v1_uperp_dev_12_dev odoo.models: Prepare computation of res.partner.company_registry 
+2024-05-15 11:52:54,367 11380 INFO dev_v1_uperp_dev_12_dev odoo.models: Prepare computation of res.partner.commercial_company_name 
+2024-05-15 11:52:54,367 11380 INFO dev_v1_uperp_dev_12_dev odoo.models: Prepare computation of res.partner.partner_share 
+2024-05-15 11:52:54,426 11380 INFO dev_v1_uperp_dev_12_dev odoo.models: Prepare computation of res.currency.decimal_places 
+2024-05-15 11:52:54,459 11380 INFO dev_v1_uperp_dev_12_dev odoo.models: Prepare computation of res.company.logo_web 
+2024-05-15 11:52:54,493 11380 INFO dev_v1_uperp_dev_12_dev odoo.models: Prepare computation of res.users.signature 
+2024-05-15 11:52:54,494 11380 INFO dev_v1_uperp_dev_12_dev odoo.models: Prepare computation of res.users.share 
+2024-05-15 11:52:56,336 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/data/res_bank.xml 
+2024-05-15 11:52:56,344 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/data/res.lang.csv 
+2024-05-15 11:52:56,392 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/data/res_lang_data.xml 
+2024-05-15 11:52:56,429 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/data/res_partner_data.xml 
+2024-05-15 11:52:56,495 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/data/res_currency_data.xml 
+2024-05-15 11:52:56,999 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/data/res_company_data.xml 
+2024-05-15 11:52:57,029 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/data/res_users_data.xml 
+2024-05-15 11:52:57,633 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/data/report_paperformat_data.xml 
+2024-05-15 11:52:57,643 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/data/res_country_data.xml 
+2024-05-15 11:52:58,007 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/data/ir_demo_data.xml 
+2024-05-15 11:52:58,035 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/data/ir_config_parameter_data.xml 
+2024-05-15 11:52:58,055 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/security/base_groups.xml 
+2024-05-15 11:52:58,385 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/security/base_security.xml 
+2024-05-15 11:52:58,527 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/views/base_menus.xml 
+2024-05-15 11:52:58,664 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/views/decimal_precision_views.xml 
+2024-05-15 11:52:58,700 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/views/res_config_views.xml 
+2024-05-15 11:52:58,726 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/data/res.country.state.csv 
+2024-05-15 11:53:00,622 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/views/ir_actions_views.xml 
+2024-05-15 11:53:00,834 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/views/ir_asset_views.xml 
+2024-05-15 11:53:00,860 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/views/ir_config_parameter_views.xml 
+2024-05-15 11:53:00,905 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/views/ir_cron_views.xml 
+2024-05-15 11:53:00,955 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/views/ir_cron_trigger_views.xml 
+2024-05-15 11:53:00,981 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/views/ir_filters_views.xml 
+2024-05-15 11:53:01,028 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/views/ir_mail_server_views.xml 
+2024-05-15 11:53:01,063 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/views/ir_model_views.xml 
+2024-05-15 11:53:01,180 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/views/ir_attachment_views.xml 
+2024-05-15 11:53:01,197 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/views/ir_rule_views.xml 
+2024-05-15 11:53:01,215 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/views/ir_sequence_views.xml 
+2024-05-15 11:53:01,232 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/views/ir_ui_menu_views.xml 
+2024-05-15 11:53:01,248 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/views/ir_ui_view_views.xml 
+2024-05-15 11:53:01,288 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/views/ir_default_views.xml 
+2024-05-15 11:53:01,302 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/data/ir_cron_data.xml 
+2024-05-15 11:53:01,310 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/report/ir_model_report.xml 
+2024-05-15 11:53:01,315 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/report/ir_model_templates.xml 
+2024-05-15 11:53:01,327 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/views/ir_logging_views.xml 
+2024-05-15 11:53:01,344 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/views/ir_qweb_widget_templates.xml 
+2024-05-15 11:53:01,360 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/views/ir_module_views.xml 
+2024-05-15 11:53:01,412 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/data/ir_module_category_data.xml 
+2024-05-15 11:53:01,449 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/data/ir_module_module.xml 
+2024-05-15 11:53:01,490 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/report/ir_module_reports.xml 
+2024-05-15 11:53:01,495 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/report/ir_module_report_templates.xml 
+2024-05-15 11:53:01,505 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/wizard/base_module_update_views.xml 
+2024-05-15 11:53:01,515 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/wizard/base_language_install_views.xml 
+2024-05-15 11:53:01,524 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/wizard/base_import_language_views.xml 
+2024-05-15 11:53:01,533 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/wizard/base_module_upgrade_views.xml 
+2024-05-15 11:53:01,549 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/wizard/base_module_uninstall_views.xml 
+2024-05-15 11:53:01,556 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/wizard/base_export_language_views.xml 
+2024-05-15 11:53:01,570 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/wizard/base_partner_merge_views.xml 
+2024-05-15 11:53:01,585 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/data/ir_actions_data.xml 
+2024-05-15 11:53:01,590 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/data/ir_demo_failure_data.xml 
+2024-05-15 11:53:01,606 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/views/ir_profile_views.xml 
+2024-05-15 11:53:01,640 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/views/res_company_views.xml 
+2024-05-15 11:53:01,688 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/views/res_lang_views.xml 
+2024-05-15 11:53:01,734 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/views/res_partner_views.xml 
+2024-05-15 11:53:01,994 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/views/res_bank_views.xml 
+2024-05-15 11:53:02,068 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/views/res_country_views.xml 
+2024-05-15 11:53:02,152 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/views/res_currency_views.xml 
+2024-05-15 11:53:02,235 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/views/res_users_views.xml 
+2024-05-15 11:53:02,475 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/views/ir_property_views.xml 
+2024-05-15 11:53:02,518 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/views/res_config_settings_views.xml 
+2024-05-15 11:53:02,534 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/views/report_paperformat_views.xml 
+2024-05-15 11:53:02,580 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/views/onboarding_views.xml 
+2024-05-15 11:53:02,652 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base/security/ir.model.access.csv 
+2024-05-15 11:53:03,026 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_module: module base: loading translation file zh_CN for language zh_CN 
+2024-05-15 11:53:03,865 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Module base loaded in 10.18s, 8062 queries (+8062 other) 
+2024-05-15 11:53:03,865 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: 1 modules loaded in 10.18s, 8062 queries (+8062 extra) 
+2024-05-15 11:53:03,912 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_module: module base: loading translation file zh_CN for language zh_CN 
+2024-05-15 11:53:04,771 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: updating modules list 
+2024-05-15 11:53:04,772 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2024-05-15 11:53:05,752 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading 8 modules... 
+2024-05-15 11:53:05,753 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Loading module web (2/8) 
+2024-05-15 11:53:05,788 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.registry: module web: creating or updating database tables 
+2024-05-15 11:53:06,329 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading web/security/ir.model.access.csv 
+2024-05-15 11:53:06,351 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading web/views/webclient_templates.xml 
+2024-05-15 11:53:06,550 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading web/views/report_templates.xml 
+2024-05-15 11:53:06,837 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading web/views/base_document_layout_views.xml 
+2024-05-15 11:53:06,866 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading web/views/speedscope_template.xml 
+2024-05-15 11:53:06,885 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading web/views/lazy_assets.xml 
+2024-05-15 11:53:06,904 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading web/views/neutralize_views.xml 
+2024-05-15 11:53:06,923 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading web/data/ir_attachment.xml 
+2024-05-15 11:53:06,936 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading web/data/report_layout.xml 
+2024-05-15 11:53:06,968 11380 WARNING dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='company.id' in template 209. Replace by @t-out 
+2024-05-15 11:53:06,969 11380 WARNING dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='font' in template 209. Replace by @t-out 
+2024-05-15 11:53:06,969 11380 WARNING dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='secondary' in template 209. Replace by @t-out 
+2024-05-15 11:53:06,970 11380 WARNING dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='primary' in template 209. Replace by @t-out 
+2024-05-15 11:53:06,970 11380 WARNING dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='secondary' in template 209. Replace by @t-out 
+2024-05-15 11:53:06,971 11380 WARNING dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='primary' in template 209. Replace by @t-out 
+2024-05-15 11:53:06,972 11380 WARNING dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='primary' in template 209. Replace by @t-out 
+2024-05-15 11:53:06,972 11380 WARNING dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='secondary' in template 209. Replace by @t-out 
+2024-05-15 11:53:06,973 11380 WARNING dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='primary' in template 209. Replace by @t-out 
+2024-05-15 11:53:06,973 11380 WARNING dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='secondary' in template 209. Replace by @t-out 
+2024-05-15 11:53:06,974 11380 WARNING dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='primary' in template 209. Replace by @t-out 
+2024-05-15 11:53:06,974 11380 WARNING dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='secondary' in template 209. Replace by @t-out 
+2024-05-15 11:53:06,975 11380 WARNING dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='primary' in template 209. Replace by @t-out 
+2024-05-15 11:53:06,975 11380 WARNING dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='secondary' in template 209. Replace by @t-out 
+2024-05-15 11:53:06,976 11380 WARNING dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='secondary' in template 209. Replace by @t-out 
+2024-05-15 11:53:06,976 11380 WARNING dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='primary' in template 209. Replace by @t-out 
+2024-05-15 11:53:06,977 11380 WARNING dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='secondary' in template 209. Replace by @t-out 
+2024-05-15 11:53:06,978 11380 WARNING dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='primary' in template 209. Replace by @t-out 
+2024-05-15 11:53:06,978 11380 WARNING dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='secondary' in template 209. Replace by @t-out 
+2024-05-15 11:53:06,979 11380 WARNING dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='secondary' in template 209. Replace by @t-out 
+2024-05-15 11:53:06,979 11380 WARNING dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='secondary' in template 209. Replace by @t-out 
+2024-05-15 11:53:06,979 11380 WARNING dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='secondary' in template 209. Replace by @t-out 
+2024-05-15 11:53:06,980 11380 WARNING dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='secondary' in template 209. Replace by @t-out 
+2024-05-15 11:53:06,981 11380 WARNING dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='primary' in template 209. Replace by @t-out 
+2024-05-15 11:53:06,981 11380 WARNING dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='secondary' in template 209. Replace by @t-out 
+2024-05-15 11:53:06,982 11380 WARNING dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='primary' in template 209. Replace by @t-out 
+2024-05-15 11:53:06,982 11380 WARNING dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='secondary' in template 209. Replace by @t-out 
+2024-05-15 11:53:07,007 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_module: module web: loading translation file zh_CN for language zh_CN 
+2024-05-15 11:53:07,139 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Module web loaded in 1.39s, 960 queries (+960 other) 
+2024-05-15 11:53:07,141 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Loading module auth_totp (3/8) 
+2024-05-15 11:53:07,213 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.registry: module auth_totp: creating or updating database tables 
+2024-05-15 11:53:07,300 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading auth_totp/security/security.xml 
+2024-05-15 11:53:07,339 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading auth_totp/security/ir.model.access.csv 
+2024-05-15 11:53:07,358 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading auth_totp/data/ir_action_data.xml 
+2024-05-15 11:53:07,370 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading auth_totp/views/res_users_views.xml 
+2024-05-15 11:53:07,517 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading auth_totp/views/templates.xml 
+2024-05-15 11:53:07,537 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading auth_totp/wizard/auth_totp_wizard_views.xml 
+2024-05-15 11:53:07,561 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_module: module auth_totp: loading translation file zh_CN for language zh_CN 
+2024-05-15 11:53:07,606 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Module auth_totp loaded in 0.47s, 197 queries (+197 other) 
+2024-05-15 11:53:07,606 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Loading module base_import (4/8) 
+2024-05-15 11:53:07,672 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.registry: module base_import: creating or updating database tables 
+2024-05-15 11:53:08,444 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base_import/security/ir.model.access.csv 
+2024-05-15 11:53:08,521 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_module: module base_import: loading translation file zh_CN for language zh_CN 
+2024-05-15 11:53:08,568 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Module base_import loaded in 0.96s, 895 queries (+895 other) 
+2024-05-15 11:53:08,569 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Loading module bus (5/8) 
+2024-05-15 11:53:08,622 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.registry: module bus: creating or updating database tables 
+2024-05-15 11:53:08,722 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading bus/security/ir.model.access.csv 
+2024-05-15 11:53:08,752 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_module: module bus: loading translation file zh_CN for language zh_CN 
+2024-05-15 11:53:08,772 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Module bus loaded in 0.20s, 107 queries (+107 other) 
+2024-05-15 11:53:08,772 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Loading module web_kanban_gauge (6/8) 
+2024-05-15 11:53:08,831 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_module: module web_kanban_gauge: loading translation file zh_CN for language zh_CN 
+2024-05-15 11:53:08,847 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Module web_kanban_gauge loaded in 0.08s, 13 queries (+13 other) 
+2024-05-15 11:53:08,847 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Loading module web_tour (7/8) 
+2024-05-15 11:53:08,889 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.registry: module web_tour: creating or updating database tables 
+2024-05-15 11:53:08,936 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading web_tour/security/ir.model.access.csv 
+2024-05-15 11:53:08,958 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading web_tour/security/ir.rule.csv 
+2024-05-15 11:53:08,973 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading web_tour/views/tour_views.xml 
+2024-05-15 11:53:09,020 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_module: module web_tour: loading translation file zh_CN for language zh_CN 
+2024-05-15 11:53:09,050 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Module web_tour loaded in 0.20s, 110 queries (+110 other) 
+2024-05-15 11:53:09,050 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Loading module web_editor (8/8) 
+2024-05-15 11:53:09,148 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.registry: module web_editor: creating or updating database tables 
+2024-05-15 11:53:09,768 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading web_editor/security/ir.model.access.csv 
+2024-05-15 11:53:09,785 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading web_editor/data/editor_assets.xml 
+2024-05-15 11:53:09,797 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading web_editor/views/editor.xml 
+2024-05-15 11:53:09,874 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading web_editor/views/snippets.xml 
+2024-05-15 11:53:10,019 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_module: module web_editor: loading translation file zh_CN for language zh_CN 
+2024-05-15 11:53:10,112 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Module web_editor loaded in 1.06s, 847 queries (+847 other) 
+2024-05-15 11:53:10,112 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: 8 modules loaded in 4.36s, 3129 queries (+3129 extra) 
+2024-05-15 11:53:10,395 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Modules loaded. 
+2024-05-15 11:53:10,398 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.registry: Registry loaded in 16.722s 
+2024-05-15 11:53:10,405 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_module: module base: loading translation file zh_CN for language zh_CN 
+2024-05-15 11:53:10,854 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_module: module web: loading translation file zh_CN for language zh_CN 
+2024-05-15 11:53:10,938 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_module: module auth_totp: loading translation file zh_CN for language zh_CN 
+2024-05-15 11:53:10,951 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_module: module base_import: loading translation file zh_CN for language zh_CN 
+2024-05-15 11:53:10,970 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_module: module bus: loading translation file zh_CN for language zh_CN 
+2024-05-15 11:53:10,977 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_module: module web_editor: loading translation file zh_CN for language zh_CN 
+2024-05-15 11:53:11,025 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_module: module web_kanban_gauge: loading translation file zh_CN for language zh_CN 
+2024-05-15 11:53:11,029 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_module: module web_tour: loading translation file zh_CN for language zh_CN 
+2024-05-15 11:53:12,358 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.res_users: Login successful for db:dev_v1_uperp_dev_12_dev login:admin from 127.0.0.1 
+2024-05-15 11:53:12,378 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 11:53:12] "POST /web/database/create HTTP/1.1" 303 - 16578 9.838 11.084
+2024-05-15 11:53:12,386 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-05-15 11:53:12,512 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 11:53:12] "GET /web HTTP/1.1" 303 - 9 0.003 0.126
+2024-05-15 11:53:12,944 11380 WARNING dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='error' in template 185. Replace by @t-out 
+2024-05-15 11:53:12,945 11380 WARNING dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='message' in template 185. Replace by @t-out 
+2024-05-15 11:53:13,001 11380 WARNING dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc="title or 'CAN ERP'" in template 181. Replace by @t-out 
+2024-05-15 11:53:13,003 11380 WARNING dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='request.csrf_token(None)' in template 181. Replace by @t-out 
+2024-05-15 11:53:13,004 11380 WARNING dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='debug' in template 181. Replace by @t-out 
+2024-05-15 11:53:21,997 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 11:53:21] "GET /web/login HTTP/1.1" 200 - 82 0.071 9.087
+2024-05-15 11:53:22,013 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 11:53:22] "GET /web/assets/15-ce4c635/web.assets_frontend.min.css HTTP/1.1" 200 - 6 0.003 0.008
+2024-05-15 11:53:22,504 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 11:53:22] "GET /web/binary/company_logo HTTP/1.1" 200 - 2 0.002 0.155
+2024-05-15 11:53:22,509 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 11:53:22] "GET /web/assets/16-78fbf7e/web.assets_frontend_minimal.min.js HTTP/1.1" 200 - 5 0.005 0.158
+2024-05-15 11:53:22,871 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 11:53:22] "GET /web/assets/17-0e51c6d/web.assets_frontend_lazy.min.js HTTP/1.1" 200 - 5 0.003 0.007
+2024-05-15 11:53:23,770 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 11:53:23] "GET /web/webclient/translations/1715774003112 HTTP/1.1" 200 - 5 0.007 0.634
+2024-05-15 11:53:24,114 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 11:53:24] "GET /web/webclient/translations/1715774003781 HTTP/1.1" 200 - 5 0.007 0.007
+2024-05-15 11:53:52,541 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Base: Auto-vacuum internal data`. 
+2024-05-15 11:53:52,683 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_attachment: filestore gc 14 checked, 0 removed 
+2024-05-15 11:53:53,214 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2024-05-15 11:53:53,309 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.auth_totp.models.auth_totp: GC'd 0 totp devices entries 
+2024-05-15 11:53:53,355 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Base: Auto-vacuum internal data` done. 
+2024-05-15 12:00:12,904 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.res_users: Login successful for db:dev_v1_uperp_dev_12_dev login:admin from 127.0.0.1 
+2024-05-15 12:00:12,933 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2024-05-15 12:00:12,936 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:00:12] "POST /web/login HTTP/1.1" 303 - 48 0.042 0.539
+2024-05-15 12:00:28,371 11380 WARNING dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc="title or 'CAN ERP'" in template 180. Replace by @t-out 
+2024-05-15 12:00:28,373 11380 WARNING dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='request.csrf_token(None)' in template 180. Replace by @t-out 
+2024-05-15 12:00:28,374 11380 WARNING dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='debug' in template 180. Replace by @t-out 
+2024-05-15 12:00:28,693 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:00:28] "GET /web HTTP/1.1" 200 - 128 0.125 15.626
+2024-05-15 12:00:28,716 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:00:28] "GET /web/assets/18-d3e0c26/web.assets_common.min.css HTTP/1.1" 200 - 4 0.001 0.006
+2024-05-15 12:00:29,184 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:00:29] "GET /web/assets/19-3d2f1b7/web.assets_backend.min.css HTTP/1.1" 200 - 4 0.006 0.091
+2024-05-15 12:00:29,187 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:00:29] "GET /web/assets/21-3d2f1b7/web.assets_backend.min.js HTTP/1.1" 200 - 4 0.004 0.094
+2024-05-15 12:00:29,190 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:00:29] "GET /web/assets/22-70aabb2/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 4 0.006 0.094
+2024-05-15 12:00:29,191 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:00:29] "GET /web/assets/20-d3e0c26/web.assets_common.min.js HTTP/1.1" 200 - 4 0.006 0.097
+2024-05-15 12:00:29,916 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:00:29] "POST /web/action/load HTTP/1.1" 200 - 15 0.008 0.027
+2024-05-15 12:00:29,959 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:00:29] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 19 0.018 0.014
+2024-05-15 12:00:30,007 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:00:30] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 200 - 11 0.011 0.067
+2024-05-15 12:00:30,265 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:00:30] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 58 0.058 0.076
+2024-05-15 12:00:30,353 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:00:30] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.019
+2024-05-15 12:00:30,362 11380 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-05-15 12:00:30,446 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:00:30] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 97 0.084 0.082
+2024-05-15 12:00:30,620 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:00:30] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 7 0.008 0.011
+2024-05-15 12:00:39,907 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:00:39] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 11 0.012 0.009
+2024-05-15 12:00:39,966 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:00:39] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 96 0.059 0.022
+2024-05-15 12:00:40,867 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['MuK Backend Theme'] to user admin #2 via 127.0.0.1 
+2024-05-15 12:00:40,867 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2024-05-15 12:00:40,867 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['MuK Backend Theme'] to user admin #2 via 127.0.0.1 
+2024-05-15 12:00:41,048 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading 1 modules... 
+2024-05-15 12:00:41,060 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-05-15 12:00:41,094 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: updating modules list 
+2024-05-15 12:00:41,095 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2024-05-15 12:00:42,116 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading 8 modules... 
+2024-05-15 12:00:42,128 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: 8 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-05-15 12:00:42,130 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading 24 modules... 
+2024-05-15 12:00:42,131 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Loading module base_setup (5/24) 
+2024-05-15 12:00:42,198 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.registry: module base_setup: creating or updating database tables 
+2024-05-15 12:00:42,285 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base_setup/data/base_setup_data.xml 
+2024-05-15 12:00:42,298 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base_setup/views/res_config_settings_views.xml 
+2024-05-15 12:00:42,363 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base_setup/views/res_partner_views.xml 
+2024-05-15 12:00:42,398 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_module: module base_setup: loading translation file zh_CN for language zh_CN 
+2024-05-15 12:00:42,456 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Module base_setup loaded in 0.32s, 169 queries (+169 other) 
+2024-05-15 12:00:42,456 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Loading module iap (9/24) 
+2024-05-15 12:00:42,504 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.registry: module iap: creating or updating database tables 
+2024-05-15 12:00:42,576 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading iap/security/ir.model.access.csv 
+2024-05-15 12:00:42,596 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading iap/security/ir_rule.xml 
+2024-05-15 12:00:42,608 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading iap/views/iap_views.xml 
+2024-05-15 12:00:42,651 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading iap/views/res_config_settings.xml 
+2024-05-15 12:00:42,719 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_module: module iap: loading translation file zh_CN for language zh_CN 
+2024-05-15 12:00:42,752 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Module iap loaded in 0.30s, 166 queries (+166 other) 
+2024-05-15 12:00:42,753 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Loading module mail (10/24) 
+2024-05-15 12:00:42,970 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.registry: module mail: creating or updating database tables 
+2024-05-15 12:00:43,351 11380 INFO dev_v1_uperp_dev_12_dev odoo.models: Prepare computation of ir.actions.server.partner_ids 
+2024-05-15 12:00:43,352 11380 INFO dev_v1_uperp_dev_12_dev odoo.models: Prepare computation of ir.actions.server.template_id 
+2024-05-15 12:00:43,352 11380 INFO dev_v1_uperp_dev_12_dev odoo.models: Prepare computation of ir.actions.server.activity_type_id 
+2024-05-15 12:00:43,352 11380 INFO dev_v1_uperp_dev_12_dev odoo.models: Prepare computation of ir.actions.server.activity_date_deadline_range 
+2024-05-15 12:00:43,352 11380 INFO dev_v1_uperp_dev_12_dev odoo.models: Prepare computation of ir.actions.server.activity_user_id 
+2024-05-15 12:00:43,352 11380 INFO dev_v1_uperp_dev_12_dev odoo.models: Prepare computation of ir.actions.server.mail_post_method 
+2024-05-15 12:00:43,353 11380 INFO dev_v1_uperp_dev_12_dev odoo.models: Prepare computation of ir.actions.server.activity_summary 
+2024-05-15 12:00:43,353 11380 INFO dev_v1_uperp_dev_12_dev odoo.models: Prepare computation of ir.actions.server.activity_date_deadline_range_type 
+2024-05-15 12:00:43,353 11380 INFO dev_v1_uperp_dev_12_dev odoo.models: Prepare computation of ir.actions.server.activity_user_type 
+2024-05-15 12:00:43,353 11380 INFO dev_v1_uperp_dev_12_dev odoo.models: Prepare computation of ir.actions.server.activity_user_field_name 
+2024-05-15 12:00:43,353 11380 INFO dev_v1_uperp_dev_12_dev odoo.models: Prepare computation of ir.actions.server.activity_note 
+2024-05-15 12:00:43,353 11380 INFO dev_v1_uperp_dev_12_dev odoo.models: Prepare computation of ir.actions.server.mail_post_autofollow 
+2024-05-15 12:00:43,422 11380 INFO dev_v1_uperp_dev_12_dev odoo.models: Prepare computation of res.partner.email_normalized 
+2024-05-15 12:00:43,432 11380 INFO dev_v1_uperp_dev_12_dev odoo.models: Prepare computation of res.users.notification_type 
+2024-05-15 12:00:45,455 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading mail/data/mail_groups.xml 
+2024-05-15 12:00:45,623 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading mail/wizard/mail_blacklist_remove_views.xml 
+2024-05-15 12:00:45,639 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading mail/wizard/mail_compose_message_views.xml 
+2024-05-15 12:00:45,676 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading mail/wizard/mail_resend_message_views.xml 
+2024-05-15 12:00:45,704 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading mail/wizard/mail_template_preview_views.xml 
+2024-05-15 12:00:45,729 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading mail/wizard/mail_wizard_invite_views.xml 
+2024-05-15 12:00:45,748 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading mail/wizard/mail_template_reset_views.xml 
+2024-05-15 12:00:45,773 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading mail/views/fetchmail_views.xml 
+2024-05-15 12:00:45,813 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading mail/views/mail_message_subtype_views.xml 
+2024-05-15 12:00:45,841 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading mail/views/mail_tracking_views.xml 
+2024-05-15 12:00:45,874 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading mail/views/mail_notification_views.xml 
+2024-05-15 12:00:45,903 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading mail/views/mail_message_views.xml 
+2024-05-15 12:00:45,974 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading mail/views/mail_message_schedule_views.xml 
+2024-05-15 12:00:46,013 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading mail/views/mail_mail_views.xml 
+2024-05-15 12:00:46,071 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading mail/views/mail_followers_views.xml 
+2024-05-15 12:00:46,098 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading mail/views/mail_ice_server_views.xml 
+2024-05-15 12:00:46,127 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading mail/views/mail_channel_member_views.xml 
+2024-05-15 12:00:46,153 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading mail/views/mail_channel_rtc_session_views.xml 
+2024-05-15 12:00:46,185 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading mail/views/mail_link_preview_views.xml 
+2024-05-15 12:00:46,200 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading mail/views/mail_channel_views.xml 
+2024-05-15 12:00:46,255 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading mail/views/mail_shortcode_views.xml 
+2024-05-15 12:00:46,281 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading mail/views/mail_activity_views.xml 
+2024-05-15 12:00:46,389 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading mail/views/res_config_settings_views.xml 
+2024-05-15 12:00:46,487 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading mail/data/res_partner_data.xml 
+2024-05-15 12:00:46,528 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading mail/data/mail_message_subtype_data.xml 
+2024-05-15 12:00:46,547 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading mail/data/mail_templates_chatter.xml 
+2024-05-15 12:00:46,601 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading mail/data/mail_templates_email_layouts.xml 
+2024-05-15 12:00:46,664 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading mail/data/mail_templates_mailgateway.xml 
+2024-05-15 12:00:46,714 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading mail/data/mail_channel_data.xml 
+2024-05-15 12:00:46,765 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading mail/data/mail_activity_data.xml 
+2024-05-15 12:00:46,805 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading mail/data/ir_cron_data.xml 
+2024-05-15 12:00:46,877 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading mail/security/mail_security.xml 
+2024-05-15 12:00:47,070 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading mail/security/ir.model.access.csv 
+2024-05-15 12:00:47,263 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading mail/views/discuss_public_templates.xml 
+2024-05-15 12:00:47,295 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading mail/views/mail_alias_views.xml 
+2024-05-15 12:00:47,338 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading mail/views/mail_gateway_allowed_views.xml 
+2024-05-15 12:00:47,370 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading mail/views/mail_guest_views.xml 
+2024-05-15 12:00:47,389 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading mail/views/mail_message_reaction_views.xml 
+2024-05-15 12:00:47,410 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading mail/views/res_users_views.xml 
+2024-05-15 12:00:47,480 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading mail/views/res_users_settings_views.xml 
+2024-05-15 12:00:47,512 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading mail/views/mail_template_views.xml 
+2024-05-15 12:00:47,564 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading mail/views/ir_actions_server_views.xml 
+2024-05-15 12:00:47,608 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading mail/views/ir_model_views.xml 
+2024-05-15 12:00:47,700 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading mail/views/res_partner_views.xml 
+2024-05-15 12:00:47,887 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading mail/views/mail_blacklist_views.xml 
+2024-05-15 12:00:47,928 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading mail/views/mail_menus.xml 
+2024-05-15 12:00:48,136 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_module: module mail: loading translation file zh_CN for language zh_CN 
+2024-05-15 12:00:48,777 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Module mail loaded in 6.02s, 3574 queries (+3574 other) 
+2024-05-15 12:00:48,777 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Loading module auth_signup (12/24) 
+2024-05-15 12:00:48,846 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.registry: module auth_signup: creating or updating database tables 
+2024-05-15 12:00:48,953 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading auth_signup/data/ir_config_parameter_data.xml 
+2024-05-15 12:00:48,970 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading auth_signup/data/ir_cron_data.xml 
+2024-05-15 12:00:48,989 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading auth_signup/data/mail_template_data.xml 
+2024-05-15 12:00:49,017 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading auth_signup/views/res_config_settings_views.xml 
+2024-05-15 12:00:49,094 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading auth_signup/views/res_users_views.xml 
+2024-05-15 12:00:49,161 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading auth_signup/views/auth_signup_login_templates.xml 
+2024-05-15 12:00:49,226 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading auth_signup/views/webclient_templates.xml 
+2024-05-15 12:00:49,259 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_module: module auth_signup: loading translation file zh_CN for language zh_CN 
+2024-05-15 12:00:49,316 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Module auth_signup loaded in 0.54s, 242 queries (+242 other) 
+2024-05-15 12:00:49,317 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Loading module auth_totp_mail (13/24) 
+2024-05-15 12:00:49,370 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.registry: module auth_totp_mail: creating or updating database tables 
+2024-05-15 12:00:49,408 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading auth_totp_mail/data/ir_action_data.xml 
+2024-05-15 12:00:49,441 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading auth_totp_mail/data/mail_template_data.xml 
+2024-05-15 12:00:49,454 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading auth_totp_mail/views/res_users_views.xml 
+2024-05-15 12:00:49,554 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_module: module auth_totp_mail: loading translation file zh_CN for language zh_CN 
+2024-05-15 12:00:49,591 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Module auth_totp_mail loaded in 0.28s, 110 queries (+110 other) 
+2024-05-15 12:00:49,591 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Loading module base_install_request (14/24) 
+2024-05-15 12:00:49,660 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.registry: module base_install_request: creating or updating database tables 
+2024-05-15 12:00:49,757 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base_install_request/security/ir.model.access.csv 
+2024-05-15 12:00:49,786 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base_install_request/wizard/base_module_install_request_views.xml 
+2024-05-15 12:00:49,818 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base_install_request/data/mail_template_data.xml 
+2024-05-15 12:00:49,831 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base_install_request/data/mail_templates_module_install.xml 
+2024-05-15 12:00:49,850 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading base_install_request/views/ir_module_module_views.xml 
+2024-05-15 12:00:49,896 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_module: module base_install_request: loading translation file zh_CN for language zh_CN 
+2024-05-15 12:00:49,936 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Module base_install_request loaded in 0.35s, 156 queries (+156 other) 
+2024-05-15 12:00:49,937 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Loading module google_gmail (15/24) 
+2024-05-15 12:00:50,007 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.registry: module google_gmail: creating or updating database tables 
+2024-05-15 12:00:50,082 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading google_gmail/views/fetchmail_server_views.xml 
+2024-05-15 12:00:50,122 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading google_gmail/views/ir_mail_server_views.xml 
+2024-05-15 12:00:50,152 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading google_gmail/views/res_config_settings_views.xml 
+2024-05-15 12:00:50,257 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_module: module google_gmail: loading translation file zh_CN for language zh_CN 
+2024-05-15 12:00:50,290 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Module google_gmail loaded in 0.35s, 154 queries (+154 other) 
+2024-05-15 12:00:50,290 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Loading module iap_mail (16/24) 
+2024-05-15 12:00:50,344 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.registry: module iap_mail: creating or updating database tables 
+2024-05-15 12:00:50,371 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading iap_mail/data/mail_templates.xml 
+2024-05-15 12:00:50,418 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_module: module iap_mail: loading translation file zh_CN for language zh_CN 
+2024-05-15 12:00:50,445 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Module iap_mail loaded in 0.15s, 42 queries (+42 other) 
+2024-05-15 12:00:50,445 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Loading module mail_bot (17/24) 
+2024-05-15 12:00:50,512 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.registry: module mail_bot: creating or updating database tables 
+2024-05-15 12:00:50,615 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading mail_bot/views/res_users_views.xml 
+2024-05-15 12:00:50,714 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading mail_bot/data/mailbot_data.xml 
+2024-05-15 12:00:50,733 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_module: module mail_bot: loading translation file zh_CN for language zh_CN 
+2024-05-15 12:00:50,753 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Module mail_bot loaded in 0.31s, 145 queries (+145 other) 
+2024-05-15 12:00:50,753 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Loading module muk_web_theme (18/24) 
+2024-05-15 12:00:50,839 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.registry: module muk_web_theme: creating or updating database tables 
+2024-05-15 12:00:50,955 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading muk_web_theme/templates/webclient.xml 
+2024-05-15 12:00:50,986 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading muk_web_theme/views/res_config_settings.xml 
+2024-05-15 12:00:51,072 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading muk_web_theme/views/res_users.xml 
+2024-05-15 12:00:51,141 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_module: module muk_web_theme: no translation for language zh_CN 
+2024-05-15 12:00:51,156 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Module muk_web_theme loaded in 0.40s, 155 queries (+155 other) 
+2024-05-15 12:00:51,157 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Loading module phone_validation (19/24) 
+2024-05-15 12:00:51,239 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.registry: module phone_validation: creating or updating database tables 
+2024-05-15 12:00:51,369 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading phone_validation/security/ir.model.access.csv 
+2024-05-15 12:00:51,392 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading phone_validation/views/phone_blacklist_views.xml 
+2024-05-15 12:00:51,450 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading phone_validation/wizard/phone_blacklist_remove_view.xml 
+2024-05-15 12:00:51,474 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_module: module phone_validation: loading translation file zh_CN for language zh_CN 
+2024-05-15 12:00:51,513 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Module phone_validation loaded in 0.36s, 176 queries (+176 other) 
+2024-05-15 12:00:51,514 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Loading module privacy_lookup (20/24) 
+2024-05-15 12:00:51,570 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.registry: module privacy_lookup: creating or updating database tables 
+2024-05-15 12:00:51,790 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading privacy_lookup/wizard/privacy_lookup_wizard_views.xml 
+2024-05-15 12:00:51,851 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading privacy_lookup/views/privacy_log_views.xml 
+2024-05-15 12:00:51,894 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading privacy_lookup/security/ir.model.access.csv 
+2024-05-15 12:00:51,922 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading privacy_lookup/data/ir_actions_server_data.xml 
+2024-05-15 12:00:51,946 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_module: module privacy_lookup: loading translation file zh_CN for language zh_CN 
+2024-05-15 12:00:51,986 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Module privacy_lookup loaded in 0.47s, 238 queries (+238 other) 
+2024-05-15 12:00:51,986 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Loading module web_unsplash (21/24) 
+2024-05-15 12:00:52,055 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.registry: module web_unsplash: creating or updating database tables 
+2024-05-15 12:00:52,128 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading web_unsplash/views/res_config_settings_view.xml 
+2024-05-15 12:00:52,253 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_module: module web_unsplash: loading translation file zh_CN for language zh_CN 
+2024-05-15 12:00:52,272 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Module web_unsplash loaded in 0.29s, 116 queries (+116 other) 
+2024-05-15 12:00:52,272 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Loading module partner_autocomplete (22/24) 
+2024-05-15 12:00:52,332 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.registry: module partner_autocomplete: creating or updating database tables 
+2024-05-15 12:00:52,452 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading partner_autocomplete/security/ir.model.access.csv 
+2024-05-15 12:00:52,472 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading partner_autocomplete/views/res_partner_views.xml 
+2024-05-15 12:00:52,545 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading partner_autocomplete/views/res_company_views.xml 
+2024-05-15 12:00:52,571 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading partner_autocomplete/views/res_config_settings_views.xml 
+2024-05-15 12:00:52,670 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading partner_autocomplete/data/cron.xml 
+2024-05-15 12:00:52,698 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_module: module partner_autocomplete: loading translation file zh_CN for language zh_CN 
+2024-05-15 12:00:52,726 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Module partner_autocomplete loaded in 0.45s, 207 queries (+207 other) 
+2024-05-15 12:00:52,726 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Loading module sms (23/24) 
+2024-05-15 12:00:52,818 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.registry: module sms: creating or updating database tables 
+2024-05-15 12:00:52,830 11380 INFO dev_v1_uperp_dev_12_dev odoo.models: Prepare computation of ir.actions.server.sms_template_id 
+2024-05-15 12:00:52,831 11380 INFO dev_v1_uperp_dev_12_dev odoo.models: Prepare computation of ir.actions.server.sms_method 
+2024-05-15 12:00:52,866 11380 INFO dev_v1_uperp_dev_12_dev odoo.models: Prepare computation of res.partner.phone_sanitized 
+2024-05-15 12:00:53,307 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading sms/data/ir_cron_data.xml 
+2024-05-15 12:00:53,330 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading sms/wizard/sms_composer_views.xml 
+2024-05-15 12:00:53,370 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading sms/wizard/sms_template_preview_views.xml 
+2024-05-15 12:00:53,394 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading sms/wizard/sms_resend_views.xml 
+2024-05-15 12:00:53,423 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading sms/wizard/sms_template_reset_views.xml 
+2024-05-15 12:00:53,449 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading sms/views/ir_actions_server_views.xml 
+2024-05-15 12:00:53,502 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading sms/views/mail_notification_views.xml 
+2024-05-15 12:00:53,553 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading sms/views/res_config_settings_views.xml 
+2024-05-15 12:00:53,670 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading sms/views/res_partner_views.xml 
+2024-05-15 12:00:53,781 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading sms/views/sms_sms_views.xml 
+2024-05-15 12:00:53,845 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading sms/views/sms_template_views.xml 
+2024-05-15 12:00:53,904 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading sms/security/ir.model.access.csv 
+2024-05-15 12:00:53,957 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading sms/security/sms_security.xml 
+2024-05-15 12:00:53,982 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_module: module sms: loading translation file zh_CN for language zh_CN 
+2024-05-15 12:00:54,071 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Module sms loaded in 1.34s, 655 queries (+655 other) 
+2024-05-15 12:00:54,071 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Loading module snailmail (24/24) 
+2024-05-15 12:00:54,150 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.registry: module snailmail: creating or updating database tables 
+2024-05-15 12:00:54,436 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading snailmail/data/snailmail_data.xml 
+2024-05-15 12:00:54,457 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading snailmail/views/report_assets.xml 
+2024-05-15 12:00:54,510 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading snailmail/views/snailmail_views.xml 
+2024-05-15 12:00:54,553 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading snailmail/wizard/snailmail_confirm_views.xml 
+2024-05-15 12:00:54,571 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading snailmail/wizard/snailmail_letter_format_error_views.xml 
+2024-05-15 12:00:54,588 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading snailmail/wizard/snailmail_letter_missing_required_fields_views.xml 
+2024-05-15 12:00:54,609 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: loading snailmail/security/ir.model.access.csv 
+2024-05-15 12:00:54,649 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_module: module snailmail: loading translation file zh_CN for language zh_CN 
+2024-05-15 12:00:54,705 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Module snailmail loaded in 0.63s, 394 queries (+394 other) 
+2024-05-15 12:00:54,705 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: 24 modules loaded in 12.57s, 6699 queries (+6699 extra) 
+2024-05-15 12:00:55,140 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.loading: Modules loaded. 
+2024-05-15 12:00:55,145 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.registry: Registry loaded in 14.106s 
+2024-05-15 12:00:55,145 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2024-05-15 12:00:55,151 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.registry: Registry changed, signaling through the database 
+2024-05-15 12:00:55,153 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:00:55] "POST /web/dataset/call_button HTTP/1.1" 200 - 8453 6.635 7.660
+2024-05-15 12:00:55,493 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-05-15 12:01:08,962 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-05-15 12:01:08,983 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-05-15 12:01:08,996 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Notification: Delete Notifications older than 6 Month`. 
+2024-05-15 12:01:09,003 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Notification: Delete Notifications older than 6 Month` done. 
+2024-05-15 12:01:09,010 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-05-15 12:01:09,016 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2024-05-15 12:01:09,022 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Users: Notify About Unregistered Users`. 
+2024-05-15 12:01:09,030 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Users: Notify About Unregistered Users` done. 
+2024-05-15 12:01:09,055 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-05-15 12:01:09,061 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-05-15 12:01:09,069 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-05-15 12:01:09,074 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-05-15 12:01:09,082 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-05-15 12:01:09,086 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-05-15 12:01:18,825 11380 WARNING dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc="title or 'CAN ERP'" in template 180. Replace by @t-out 
+2024-05-15 12:01:18,827 11380 WARNING dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='request.csrf_token(None)' in template 180. Replace by @t-out 
+2024-05-15 12:01:18,828 11380 WARNING dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='debug' in template 180. Replace by @t-out 
+2024-05-15 12:01:19,379 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2024-05-15 12:01:19,382 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:01:19] "GET /web HTTP/1.1" 200 - 200 0.190 23.703
+2024-05-15 12:01:19,430 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:01:19] "GET /web/assets/30-baf0794/web.assets_common.min.css HTTP/1.1" 200 - 12 0.008 0.015
+2024-05-15 12:01:19,433 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:01:19] "GET /web/assets/31-041822e/web.assets_backend.min.css HTTP/1.1" 200 - 11 0.010 0.016
+2024-05-15 12:01:19,731 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:01:19] "GET /web/assets/32-baf0794/web.assets_common.min.js HTTP/1.1" 200 - 4 0.003 0.007
+2024-05-15 12:01:19,800 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:01:19] "GET /web/assets/33-041822e/web.assets_backend.min.js HTTP/1.1" 200 - 4 0.002 0.013
+2024-05-15 12:01:19,800 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:01:19] "GET /web/assets/34-15b5be8/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 4 0.003 0.012
+2024-05-15 12:01:21,170 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.partner_autocomplete.models.res_company: Starting enrich of company My Company (1) 
+2024-05-15 12:01:21,184 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2024-05-15 12:01:21,187 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:01:21] "POST /web/dataset/call_kw/res.company/iap_enrich_auto HTTP/1.1" 200 - 16 0.014 0.022
+2024-05-15 12:01:21,410 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:01:21] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 5 0.006 0.006
+2024-05-15 12:01:21,532 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:01:21] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 7 0.006 0.081
+2024-05-15 12:01:21,601 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:01:21] "POST /mail/init_messaging HTTP/1.1" 200 - 149 0.103 0.241
+2024-05-15 12:01:21,636 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:01:21] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.005 0.005
+2024-05-15 12:01:21,867 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:01:21] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.008
+2024-05-15 12:03:15,323 11380 INFO ? werkzeug: 127.0.0.1 - - [15/May/2024 12:03:15] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 206 - 0 0.000 0.012
+2024-05-15 12:03:15,333 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:03:15] "POST /web/action/load HTTP/1.1" 200 - 8 0.007 0.015
+2024-05-15 12:03:15,354 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:03:15] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 19 0.021 0.021
+2024-05-15 12:03:15,556 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:03:15] "POST /mail/inbox/messages HTTP/1.1" 200 - 9 0.007 0.006
+2024-05-15 12:03:15,686 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:03:15] "GET /web/image/mail.channel/1/avatar_128?unique=abafe8a6f5121e071a40a007d9f58cad7e05ee1b23e24f8de6f1b6b2a37699ce717d784aba964ad8a0568a8b455594e7d2780799544061a4c7545aace268a5d9 HTTP/1.1" 200 - 12 0.010 0.009
+2024-05-15 12:03:15,751 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:03:15] "GET /web/image/res.partner/2/avatar_128 HTTP/1.1" 200 - 22 0.015 0.020
+2024-05-15 12:03:16,792 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:03:16] "POST /web/action/load HTTP/1.1" 200 - 10 0.010 0.009
+2024-05-15 12:03:17,263 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:03:17] "POST /web/dataset/call_kw/res.config.settings/get_views HTTP/1.1" 200 - 32 0.022 0.114
+2024-05-15 12:03:17,447 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:03:17] "POST /web/dataset/call_kw/res.config.settings/onchange HTTP/1.1" 200 - 45 0.019 0.047
+2024-05-15 12:03:17,619 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:03:17] "POST /base_setup/demo_active HTTP/1.1" 200 - 4 0.002 0.003
+2024-05-15 12:03:17,841 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:03:17] "POST /base_setup/data HTTP/1.1" 200 - 6 0.002 0.004
+2024-05-15 12:03:26,822 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:03:26] "POST /web/dataset/call_kw/res.config.settings/create HTTP/1.1" 200 - 32 0.020 0.022
+2024-05-15 12:03:27,182 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:03:27] "POST /web/dataset/call_kw/res.config.settings/read HTTP/1.1" 200 - 20 0.018 0.011
+2024-05-15 12:03:28,038 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2024-05-15 12:03:28,040 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:03:28] "POST /web/dataset/call_button HTTP/1.1" 200 - 37 0.021 0.601
+2024-05-15 12:03:49,557 11380 WARNING dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc="title or 'CAN ERP'" in template 180. Replace by @t-out 
+2024-05-15 12:03:49,558 11380 WARNING dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='request.csrf_token(None)' in template 180. Replace by @t-out 
+2024-05-15 12:03:49,559 11380 WARNING dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='debug' in template 180. Replace by @t-out 
+2024-05-15 12:03:49,929 11380 INFO dev_v1_uperp_dev_12_dev odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2024-05-15 12:03:49,932 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:03:49] "GET /web HTTP/1.1" 200 - 201 0.196 21.653
+2024-05-15 12:03:49,960 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:03:49] "GET /web/assets/36-a037bc6/web.assets_common.min.css HTTP/1.1" 200 - 10 0.009 0.008
+2024-05-15 12:03:50,314 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:03:50] "GET /web/assets/37-388b58a/web.assets_backend.min.css HTTP/1.1" 200 - 4 0.004 0.015
+2024-05-15 12:03:50,317 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:03:50] "GET /web/assets/38-a037bc6/web.assets_common.min.js HTTP/1.1" 200 - 4 0.005 0.016
+2024-05-15 12:03:50,318 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:03:50] "GET /web/assets/39-388b58a/web.assets_backend.min.js HTTP/1.1" 200 - 4 0.004 0.017
+2024-05-15 12:03:51,953 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:03:51] "POST /web/action/load HTTP/1.1" 200 - 11 0.010 0.012
+2024-05-15 12:03:52,025 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:03:52] "POST /mail/init_messaging HTTP/1.1" 200 - 73 0.049 0.043
+2024-05-15 12:03:52,129 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:03:52] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 4 0.003 0.008
+2024-05-15 12:03:52,130 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:03:52] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.004 0.007
+2024-05-15 12:03:52,207 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:03:52] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 7 0.006 0.019
+2024-05-15 12:03:52,551 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:03:52] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.011
+2024-05-15 12:04:07,798 11380 INFO ? werkzeug: 127.0.0.1 - - [15/May/2024 12:04:07] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 206 - 0 0.000 0.005
+2024-05-15 12:04:08,177 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:04:08] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 19 0.014 0.016
+2024-05-15 12:04:08,289 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:04:08] "POST /web/dataset/call_kw/res.config.settings/get_views HTTP/1.1" 200 - 32 0.024 0.119
+2024-05-15 12:04:08,438 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:04:08] "POST /web/dataset/call_kw/res.config.settings/onchange HTTP/1.1" 200 - 51 0.019 0.022
+2024-05-15 12:04:08,643 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:04:08] "POST /base_setup/demo_active HTTP/1.1" 200 - 4 0.003 0.009
+2024-05-15 12:04:08,827 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:04:08] "POST /base_setup/data HTTP/1.1" 200 - 6 0.004 0.007
+2024-05-15 12:04:10,363 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:04:10] "POST /web/action/load HTTP/1.1" 200 - 14 0.009 0.021
+2024-05-15 12:04:10,818 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:04:10] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 58 0.040 0.087
+2024-05-15 12:04:11,036 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:04:11] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 97 0.055 0.027
+2024-05-15 12:04:11,189 11380 INFO dev_v1_uperp_dev_12_dev werkzeug: 127.0.0.1 - - [15/May/2024 12:04:11] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 7 0.008 0.011
+2024-05-15 13:00:54,165 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-05-15 13:00:54,176 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-05-15 13:00:54,188 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-05-15 13:00:54,192 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2024-05-15 13:00:54,200 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-05-15 13:00:54,204 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-05-15 13:00:54,212 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-05-15 13:00:54,217 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-05-15 13:00:54,224 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-05-15 13:00:54,228 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-05-15 14:00:55,000 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-05-15 14:00:55,006 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-05-15 14:00:55,018 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-05-15 14:00:55,023 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-05-15 14:00:55,030 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-05-15 14:00:55,035 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2024-05-15 14:00:55,042 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-05-15 14:00:55,046 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-05-15 14:00:55,054 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-05-15 14:00:55,057 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-05-15 15:00:55,748 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-05-15 15:00:55,752 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-05-15 15:00:55,762 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-05-15 15:00:55,766 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-05-15 15:00:55,771 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-05-15 15:00:55,774 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2024-05-15 15:00:55,780 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-05-15 15:00:55,783 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-05-15 15:00:55,788 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-05-15 15:00:55,792 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-05-15 16:00:56,497 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-05-15 16:00:56,502 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-05-15 16:00:56,513 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-05-15 16:00:56,518 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-05-15 16:00:56,525 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-05-15 16:00:56,529 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2024-05-15 16:00:56,537 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-05-15 16:00:56,540 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-05-15 16:00:56,548 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-05-15 16:00:56,553 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-05-15 17:00:57,181 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-05-15 17:00:57,185 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-05-15 17:00:57,197 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-05-15 17:00:57,201 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-05-15 17:00:57,209 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-05-15 17:00:57,212 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2024-05-15 17:00:57,218 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-05-15 17:00:57,223 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-05-15 17:00:57,229 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-05-15 17:00:57,232 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-05-15 18:00:57,978 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-05-15 18:00:57,984 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-05-15 18:00:57,996 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-05-15 18:00:58,001 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-05-15 18:00:58,008 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-05-15 18:00:58,012 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2024-05-15 18:00:58,020 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-05-15 18:00:58,024 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-05-15 18:00:58,032 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-05-15 18:00:58,035 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-05-15 19:00:58,763 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-05-15 19:00:58,768 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-05-15 19:00:58,782 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-05-15 19:00:58,788 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-05-15 19:00:58,797 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-05-15 19:00:58,801 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2024-05-15 19:00:58,807 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-05-15 19:00:58,811 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-05-15 19:00:58,818 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-05-15 19:00:58,821 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-05-15 20:00:59,529 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-05-15 20:00:59,535 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-05-15 20:00:59,549 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-05-15 20:00:59,555 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2024-05-15 20:00:59,564 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-05-15 20:00:59,569 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-05-15 20:00:59,576 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-05-15 20:00:59,580 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-05-15 20:00:59,586 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-05-15 20:00:59,590 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-05-15 21:01:00,318 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-05-15 21:01:00,325 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-05-15 21:01:00,333 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-05-15 21:01:00,337 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2024-05-15 21:01:00,345 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-05-15 21:01:00,349 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-05-15 21:01:00,357 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-05-15 21:01:00,362 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-05-15 21:01:00,371 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-05-15 21:01:00,375 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-05-15 22:01:01,073 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-05-15 22:01:01,079 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-05-15 22:01:01,092 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-05-15 22:01:01,097 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2024-05-15 22:01:01,108 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-05-15 22:01:01,113 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-05-15 22:01:01,124 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-05-15 22:01:01,129 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-05-15 22:01:01,139 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-05-15 22:01:01,144 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-05-15 23:01:01,863 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-05-15 23:01:01,870 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-05-15 23:01:01,881 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-05-15 23:01:01,885 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2024-05-15 23:01:01,891 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-05-15 23:01:01,895 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-05-15 23:01:01,902 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-05-15 23:01:01,905 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-05-15 23:01:01,913 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-05-15 23:01:01,917 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-05-16 00:01:02,575 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-05-16 00:01:02,581 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-05-16 00:01:02,591 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-05-16 00:01:02,595 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2024-05-16 00:01:02,601 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-05-16 00:01:02,605 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-05-16 00:01:02,610 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-05-16 00:01:02,613 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-05-16 00:01:02,620 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-05-16 00:01:02,623 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-05-16 01:01:03,335 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-05-16 01:01:03,339 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-05-16 01:01:03,352 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-05-16 01:01:03,356 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-05-16 01:01:03,367 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-05-16 01:01:03,370 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-05-16 01:01:03,378 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-05-16 01:01:03,381 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2024-05-16 01:01:03,388 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-05-16 01:01:03,393 11380 INFO dev_v1_uperp_dev_12_dev odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-05-16 01:13:49,811 28644 WARNING ? py.warnings: E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\tools\config.py:565: DeprecationWarning: The longpolling-port is a deprecated alias to the gevent-port option, please use the latter.
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\uperp-bin", line 8, in <module>
+    odoo.cli.main()
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\cli\server.py", line 127, in main
+    odoo.tools.config.parse_config(args)
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\tools\config.py", line 378, in parse_config
+    self._warn_deprecated_options()
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\tools\config.py", line 565, in _warn_deprecated_options
+    warnings.warn(
+ 
+2024-05-16 01:13:49,812 28644 INFO ? odoo: Odoo version 16.0-20230920 
+2024-05-16 01:13:49,813 28644 INFO ? odoo: Using configuration file at E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\uperp_dev2.conf 
+2024-05-16 01:13:49,813 28644 INFO ? odoo: addons paths: ['E:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\odoo\\addons', 'c:\\users\\zhqc\\appdata\\local\\openerp s.a\\odoo\\addons\\16.0', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\odoo\\addons', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\account', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\sale', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\warehouse', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\transport', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\manufacture', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\hr', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\tool', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\other', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\tmp_pre', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\tmp_test', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\tmp_tmp', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\account', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\sale', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\warehouse', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\transport', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\manufacture', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\hr', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\tool', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\other', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\tmp_pre', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\tmp_test', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\tmp_tmp', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons_dev\\dev_a', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons_dev\\dev_b', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons_dev\\dev_c', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons_dev\\dev_d', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons_dev\\dev_e', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons_dev\\dev_f'] 
+2024-05-16 01:13:49,813 28644 INFO ? odoo: database: uperp_db@localhost:3308 
+2024-05-16 01:13:51,646 28644 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at D:\Program Files (x86)\wkhtmltopdf\bin\wkhtmltopdf.exe 
+2024-05-16 01:13:56,076 28644 WARNING ? odoo.service.server: 'watchdog' module not installed. Code autoreload feature is disabled 
+2024-05-16 01:13:56,100 28644 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-UG66N7B:8119 
+2024-05-16 01:14:59,728 28644 INFO ? odoo.service.server: Initiating shutdown 
+2024-05-16 01:14:59,728 28644 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-05-16 01:14:59,747 28644 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 2 connections  

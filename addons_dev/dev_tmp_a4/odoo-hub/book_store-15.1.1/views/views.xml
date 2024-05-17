@@ -1,0 +1,54 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+
+    <record model="ir.ui.view" id="book_store.list">
+      <field name="name">图书列表</field>
+      <field name="model">book_store.book</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="author"/>
+          <field name="date"/>
+          <field name="price"/>
+        </tree>
+      </field>
+    </record>
+
+    <record id="book_store.book_form" model="ir.ui.view">
+      <field name="name">图书</field>
+      <field name="model">book_store.book</field>
+      <field name="arch" type="xml">
+        <form string="图书详情">
+          <sheet>
+            <h1>
+              <field name="name"/>
+            </h1>
+            <group>
+              <field name="author"/>
+              <field name="date"/>
+              <field name="price"/>
+            </group>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+
+    <!-- actions opening views on models -->
+
+    <record model="ir.actions.act_window" id="book_store.action_window">
+      <field name="name">图书</field>
+      <field name="res_model">book_store.book</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+
+    <!-- Top menu item -->
+    <menuitem name="西西弗斯书店" id="book_store.menu_root" web_icon="book_store,static/description/icon.png"/>
+
+    <!-- menu categories -->
+
+    <menuitem name="图书" id="book_store.menu_book" action="book_store.action_window" parent="book_store.menu_root"/>
+  </data>
+</odoo>
