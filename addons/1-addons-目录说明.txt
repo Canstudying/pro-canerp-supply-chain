@@ -1,9 +1,10 @@
 
-addons_add			扩展包目录
-addons_base			开发基础目录
-addons_high			开发高级目录
+extend				扩展包目录
+standard				标准版目录
+trade				行业版本目录
+special				定制版目录
 
 主要使用：
-1、从第三方或是OCA测试通过的放在add扩展包目录；
-2、自己开发的放在base，大部分客户都需要使用；
-3、高级功能放在high，需要的客户使用自行安装；
+1、从第三方或是OCA测试通过的放在extend扩展包目录；
+2、自己开发的放在standard、trade，大部分客户都需要使用；
+3、特殊定制功能放在specail，需要的客户再自行安装；

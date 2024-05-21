@@ -1,3 +1,0 @@
-* Jordi Ballester <jordi.ballester@forgeflow.com>
-* Lois Rilo <lois.rilo@forgeflow.com>
-* PengYB <pengyb@yizuo.ltd>
