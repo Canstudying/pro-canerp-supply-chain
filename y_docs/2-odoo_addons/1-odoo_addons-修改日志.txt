@@ -1,0 +1,43 @@
+
+=================================================
+文件用途：记录修改过的任务日志
+=================================================
+
+
+===================================
+Time: 2024-03-12 21:45
+Subject: 修改应用开票为开票/财务
+Content:
+account\veiws\account_menuitem.xml
+4    <menuitem name="Invoicing2"
+zh_CN.po   7949
+msgid "Invoicing2"
+msgstr "开票(财务)"
+
+类似改库存为库存(库内)
+stock\veiws\stock_menuitem.xml
+3      <menuitem name="Inventory2"
+zh_CN.po   3728
+msgid "Inventory2"
+msgstr "库存(库内)"
+
+===================================
+Time: 2023-04-26 18:45
+Subject: 修改title
+Content: 
+web\static\src\webclient\webclient.js		
+36  this.title.setParts({ zopenerp: "Odoo" }); // zopenerp is easy to grep
+
+web\views\webclient_templates.xml
+14   <title t-esc="title or 'Odoo'"/>
+120  <a href="https://www.odoo.com?utm_source=db&amp;utm_medium=auth" target="_blank">Powered by <span>Odoo</span></a>
+
+===================================
+Time: 2023-04-24 17:00
+Subject: 药丸改为药片
+Content: 
+product\i18n\zh_CN.po		1806 msgid "Pills"
+website\i18n\zh_CN.po		7601 msgid "Pill"
+website_sale\i18n\zh_CN.po	2732 msgid "Pills"	
+
+===================================

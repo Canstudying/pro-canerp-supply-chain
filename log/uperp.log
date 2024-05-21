@@ -1,0 +1,103 @@
+2024-05-16 06:09:22,601 25904 WARNING ? py.warnings: E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\tools\config.py:565: DeprecationWarning: The longpolling-port is a deprecated alias to the gevent-port option, please use the latter.
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\uperp-bin", line 8, in <module>
+    odoo.cli.main()
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\cli\server.py", line 127, in main
+    odoo.tools.config.parse_config(args)
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\tools\config.py", line 378, in parse_config
+    self._warn_deprecated_options()
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\tools\config.py", line 565, in _warn_deprecated_options
+    warnings.warn(
+ 
+2024-05-16 06:09:22,603 25904 INFO ? odoo: Odoo version 16.0-20230920 
+2024-05-16 06:09:22,603 25904 INFO ? odoo: Using configuration file at E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\uperp_dev2.conf 
+2024-05-16 06:09:22,604 25904 INFO ? odoo: addons paths: ['E:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\odoo\\addons', 'c:\\users\\zhqc\\appdata\\local\\openerp s.a\\odoo\\addons\\16.0', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\odoo\\addons', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\account', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\sale', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\warehouse', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\transport', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\manufacture', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\hr', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\tool', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\other', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\tmp_pre', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\tmp_test', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\tmp_tmp', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\account', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\sale', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\warehouse', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\transport', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\manufacture', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\hr', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\tool', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\other', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\tmp_pre', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\tmp_test', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\tmp_tmp', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons_dev\\dev_a', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons_dev\\dev_b', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons_dev\\dev_c', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons_dev\\dev_d', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons_dev\\dev_e', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons_dev\\dev_f'] 
+2024-05-16 06:09:22,604 25904 INFO ? odoo: database: uperp_db@localhost:3308 
+2024-05-16 06:09:22,904 25904 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at D:\Program Files (x86)\wkhtmltopdf\bin\wkhtmltopdf.exe 
+2024-05-16 06:09:23,337 25904 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-UG66N7B:8119 
+2024-05-16 06:10:35,235 12828 WARNING ? py.warnings: E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\tools\config.py:565: DeprecationWarning: The longpolling-port is a deprecated alias to the gevent-port option, please use the latter.
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\uperp-bin", line 8, in <module>
+    odoo.cli.main()
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\cli\server.py", line 127, in main
+    odoo.tools.config.parse_config(args)
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\tools\config.py", line 378, in parse_config
+    self._warn_deprecated_options()
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\tools\config.py", line 565, in _warn_deprecated_options
+    warnings.warn(
+ 
+2024-05-16 06:10:35,236 12828 INFO ? odoo: Odoo version 16.0-20230920 
+2024-05-16 06:10:35,236 12828 INFO ? odoo: Using configuration file at E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\uperp_dev2.conf 
+2024-05-16 06:10:35,236 12828 INFO ? odoo: addons paths: ['E:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\odoo\\addons', 'c:\\users\\zhqc\\appdata\\local\\openerp s.a\\odoo\\addons\\16.0', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\odoo\\addons', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\account', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\sale', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\warehouse', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\transport', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\manufacture', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\hr', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\tool', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\other', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\tmp_pre', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\tmp_test', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\tmp_tmp', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\account', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\sale', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\warehouse', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\transport', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\manufacture', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\hr', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\tool', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\other', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\tmp_pre', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\tmp_test', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\tmp_tmp', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons_dev\\dev_a', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons_dev\\dev_b', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons_dev\\dev_c', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons_dev\\dev_d', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons_dev\\dev_e', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons_dev\\dev_f'] 
+2024-05-16 06:10:35,236 12828 INFO ? odoo: database: uperp_db@localhost:3308 
+2024-05-16 06:10:35,516 12828 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at D:\Program Files (x86)\wkhtmltopdf\bin\wkhtmltopdf.exe 
+2024-05-16 06:10:36,000 12828 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-UG66N7B:8119 
+2024-05-16 06:10:57,821 23096 WARNING ? py.warnings: E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\tools\config.py:565: DeprecationWarning: The longpolling-port is a deprecated alias to the gevent-port option, please use the latter.
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\uperp-bin", line 8, in <module>
+    odoo.cli.main()
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\cli\server.py", line 127, in main
+    odoo.tools.config.parse_config(args)
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\tools\config.py", line 378, in parse_config
+    self._warn_deprecated_options()
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\tools\config.py", line 565, in _warn_deprecated_options
+    warnings.warn(
+ 
+2024-05-16 06:10:57,822 23096 INFO ? odoo: Odoo version 16.0-20230920 
+2024-05-16 06:10:57,822 23096 INFO ? odoo: Using configuration file at E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\uperp_dev2.conf 
+2024-05-16 06:10:57,822 23096 INFO ? odoo: addons paths: ['E:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\odoo\\addons', 'c:\\users\\zhqc\\appdata\\local\\openerp s.a\\odoo\\addons\\16.0', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\odoo\\addons', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\account', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\sale', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\warehouse', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\transport', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\manufacture', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\hr', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\tool', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\other', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\tmp_pre', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\tmp_test', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\tmp_tmp', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\account', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\sale', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\warehouse', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\transport', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\manufacture', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\hr', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\tool', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\other', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\tmp_pre', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\tmp_test', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\tmp_tmp', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons_dev\\dev_a', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons_dev\\dev_b', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons_dev\\dev_c', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons_dev\\dev_d', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons_dev\\dev_e', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons_dev\\dev_f'] 
+2024-05-16 06:10:57,822 23096 INFO ? odoo: database: uperp_db@localhost:3308 
+2024-05-16 06:10:58,093 23096 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at D:\Program Files (x86)\wkhtmltopdf\bin\wkhtmltopdf.exe 
+2024-05-16 06:10:58,567 23096 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-UG66N7B:8119 
+2024-05-16 06:11:25,935 27708 WARNING ? py.warnings: E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\tools\config.py:565: DeprecationWarning: The longpolling-port is a deprecated alias to the gevent-port option, please use the latter.
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\uperp-bin", line 8, in <module>
+    odoo.cli.main()
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\cli\server.py", line 127, in main
+    odoo.tools.config.parse_config(args)
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\tools\config.py", line 378, in parse_config
+    self._warn_deprecated_options()
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\tools\config.py", line 565, in _warn_deprecated_options
+    warnings.warn(
+ 
+2024-05-16 06:11:25,937 27708 INFO ? odoo: Odoo version 16.0-20230920 
+2024-05-16 06:11:25,937 27708 INFO ? odoo: Using configuration file at E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\uperp_dev2.conf 
+2024-05-16 06:11:25,937 27708 INFO ? odoo: addons paths: ['E:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\odoo\\addons', 'c:\\users\\zhqc\\appdata\\local\\openerp s.a\\odoo\\addons\\16.0', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\odoo\\addons', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\account', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\sale', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\warehouse', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\transport', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\manufacture', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\hr', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\tool', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\other', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\tmp_pre', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\tmp_test', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\tmp_tmp', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\account', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\sale', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\warehouse', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\transport', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\manufacture', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\hr', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\tool', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\other', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\tmp_pre', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\tmp_test', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\tmp_tmp', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons_dev\\dev_a', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons_dev\\dev_b', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons_dev\\dev_c', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons_dev\\dev_d', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons_dev\\dev_e', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons_dev\\dev_f'] 
+2024-05-16 06:11:25,937 27708 INFO ? odoo: database: uperp_db@localhost:3308 
+2024-05-16 06:11:26,202 27708 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at D:\Program Files (x86)\wkhtmltopdf\bin\wkhtmltopdf.exe 
+2024-05-16 06:11:26,638 27708 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-UG66N7B:8119 
+2024-05-16 06:11:51,863 7808 WARNING ? py.warnings: E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\tools\config.py:565: DeprecationWarning: The longpolling-port is a deprecated alias to the gevent-port option, please use the latter.
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\uperp-bin", line 8, in <module>
+    odoo.cli.main()
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\cli\server.py", line 127, in main
+    odoo.tools.config.parse_config(args)
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\tools\config.py", line 378, in parse_config
+    self._warn_deprecated_options()
+  File "E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\odoo\tools\config.py", line 565, in _warn_deprecated_options
+    warnings.warn(
+ 
+2024-05-16 06:11:51,864 7808 INFO ? odoo: Odoo version 16.0-20230920 
+2024-05-16 06:11:51,864 7808 INFO ? odoo: Using configuration file at E:\www\w_dev\w_a_uperp\v1\v1.0_uperp16\uperp_dev2.conf 
+2024-05-16 06:11:51,864 7808 INFO ? odoo: addons paths: ['E:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\odoo\\addons', 'c:\\users\\zhqc\\appdata\\local\\openerp s.a\\odoo\\addons\\16.0', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\odoo\\addons', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\account', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\sale', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\warehouse', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\transport', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\manufacture', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\hr', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\tool', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\other', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\tmp_pre', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\tmp_test', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\extend\\tmp_tmp', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\account', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\sale', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\warehouse', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\transport', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\manufacture', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\hr', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\tool', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\other', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\tmp_pre', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\tmp_test', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons\\standard\\tmp_tmp', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons_dev\\dev_a', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons_dev\\dev_b', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons_dev\\dev_c', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons_dev\\dev_d', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons_dev\\dev_e', 'e:\\www\\w_dev\\w_a_uperp\\v1\\v1.0_uperp16\\addons_dev\\dev_f'] 
+2024-05-16 06:11:51,864 7808 INFO ? odoo: database: uperp_db@localhost:3308 
+2024-05-16 06:11:52,136 7808 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at D:\Program Files (x86)\wkhtmltopdf\bin\wkhtmltopdf.exe 
+2024-05-16 06:11:52,543 7808 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-UG66N7B:8119 
+2024-05-16 06:12:22,025 7808 INFO ? odoo.service.server: Initiating shutdown 
+2024-05-16 06:12:22,025 7808 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-05-16 06:12:22,142 7808 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 2 connections  
