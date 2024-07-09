@@ -1,9 +1,9 @@
 
 windows
 
-E:\www\w_devr\w_open\open_mxxerp_project\codes\v1\v1.0_mxxerp16
+E:\www\w_pro\w_pro_uperp\pro_uperp_t1\codes\v1\v1.0_uperp16
 
 cd 
 venv_dev\Scripts\activate
-python odoo-bin -c odoo_dev.conf
-python odoo-bin -c odoo_dev.conf --dev=all
+python uperp-bin -c uperp_dev.conf
+python uperp-bin -c uperp_dev.conf --dev=all
