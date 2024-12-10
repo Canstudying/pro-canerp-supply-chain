@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <!-- Top menu item -->
-    <menuitem name="Invoicing2"
+    <menuitem name="Invoicing"
         id="menu_finance"
         groups="account.group_account_readonly,account.group_account_invoice"
         web_icon="account,static/description/icon.png"

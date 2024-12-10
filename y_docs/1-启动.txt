@@ -1,9 +1,0 @@
-
-windows
-
-E:\www\w_pro\w_pro_uperp\pro_uperp_t1\codes\v1\v1.0_uperp16
-
-cd 
-venv_dev\Scripts\activate
-python uperp-bin -c uperp_dev.conf
-python uperp-bin -c uperp_dev.conf --dev=all

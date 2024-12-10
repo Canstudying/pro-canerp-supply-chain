@@ -7946,8 +7946,6 @@ msgstr "结算单/账单完美匹配"
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
 msgid "Invoicing"
 msgstr "开票"
-msgid "Invoicing2"
-msgstr "开票(财务)"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_invoice_report__payment_state__invoicing_legacy
