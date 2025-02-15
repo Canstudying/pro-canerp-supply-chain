@@ -1,11 +1,12 @@
 
 extend_oca			扩展包目录-oca
-extend_other		扩展包目录-其他
-standard			标准版目录
-trade				行业版目录
-special				特殊版目录
+extend_third		扩展包目录-第三方
+more_standard		标准版目录
+more_trade			行业版目录
+more_special		特殊版目录
 
 tmp_pre				临时，准生产
+tmp_sho				临时，演示
 tmp_test			临时，测试
 tmp_tmp				临时，新加入包
 
