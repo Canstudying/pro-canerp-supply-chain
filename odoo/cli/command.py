@@ -38,8 +38,9 @@ class Help(Command):
 
 def main():
     args = sys.argv[1:]
+    
 
-    # The only shared option is '--addons-path=' needed to discover additional
+    # # The only shared option is '--addons-path=' needed to discover additional
     # commands from modules
     if len(args) > 1 and args[0].startswith('--addons-path=') and not args[1].startswith("-"):
         # parse only the addons-path, do not setup the logger...
@@ -48,6 +49,7 @@ def main():
 
     # Default legacy command
     command = "server"
+
 
     # TODO: find a way to properly discover addons subcommands without importing the world
     # Subcommand discovery

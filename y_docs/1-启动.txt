@@ -1,9 +1,0 @@
-
-windows
-
-E:\www\w_devr\w_open\open_mxxerp_project\codes\v1\v1.0_mxxerp16
-
-cd 
-venv_dev\Scripts\activate
-python odoo-bin -c odoo_dev.conf
-python odoo-bin -c odoo_dev.conf --dev=all
